@@ -1,0 +1,93 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: Arial,  sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-color: #282c34;
+  color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+header h1{
+  list-style: none;
+  padding: 0;
+}
+nav ul{
+  list-style: none;
+  padding: 0;
+}
+nav li{
+  display: inline;
+  margin: 10px;
+
+}
+ li a{
+  text-decoration: none;
+  color: #007bff;
+}
+li a:hover{
+  text-decoration: underline;
+}
+footer{
+  background-color: #282c34;
+  color: #f0f0f0;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+.App{
+  text-align: center;
+  padding-bottom: 50px;
+
+
+}
+.postlist{
+  background-color: #fff;
+  padding: 20px;
+  border-radius:5px ;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin: 20px auto;
+  max-width: 600px;
+}
+.postlist h2{
+  margin-bottom: 10px;
+  color:#333;
+}
+.postlist ul{
+  list-style: none;
+  padding: 0;
+
+}
+.postlist li{
+  margin-bottom: 20px;
+}
+.postlist h3{
+  margin:0;
+  font-size: 20px;
+  color: #555;
+}
+.postdetails{
+  background-color: #fff;
+  padding: 20px;
+  border-radius:5px ;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin: 20px auto;
+  max-width: 600px;
+}
+.postdetails h2{
+  margin-bottom: 10px;
+  color:#333;
+}
+.postdetails p{
+  line-height: 1.6;
+  color: #555;
+}
